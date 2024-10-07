@@ -1,0 +1,8 @@
+def inches_to_cm(inches):
+    return inches * 2.54
+
+inches = float(input("Enter length in inches: "))
+
+cm = inches_to_cm(inches)
+
+print(inches, 'inches is equal to ',cm, ' centimeters')
